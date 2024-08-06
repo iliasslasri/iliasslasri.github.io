@@ -56,6 +56,7 @@ education:
     date_start: 2022-09-01
     date_end: 2025-08-31
     summary: |
+      GPA: 3.9/4.0
       Double major : Embedded systems, Signal & Image processing for IA
     button:
       text: 'Read Thesis'
