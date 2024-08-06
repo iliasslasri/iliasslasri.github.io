@@ -41,10 +41,10 @@ profiles:
     url: https://github.com/iliasslasri
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/iliass-lasri-321135217/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
   - Deep Learning, Machine Learning
@@ -56,7 +56,8 @@ education:
     date_start: 2022-09-01
     date_end: 2025-08-31
     summary: |
-      GPA: 3.9/4.0
+      GPA: 3.9/4.0 
+
       Double major : Embedded systems, Signal & Image processing for IA
   - area: Preparatory classes
     institution: Lycée d'Excellence de Benguerir (CPGE LYDEX)
@@ -64,6 +65,7 @@ education:
     date_end: 2022-05-20
     summary: |
       GPA: 4.0/4.0
+      
       9th in the centrale supelec competitionm and 7th in the mines-ponts competition
       Courses included Mathematics, Physics, Mechanical and Electrical Eng.
 work:
