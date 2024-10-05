@@ -105,6 +105,10 @@ hr {
   box-shadow: 0 0px 4px rgb(0 0 0 / 32%), 0 0px 10px rgb(0 0 0 / 23%);
 }
 
+.max-width-300 {
+  max-width: 300px;
+}
+
 .menu {
   position: relative;
   margin: 0 auto;
@@ -514,10 +518,6 @@ hr {
 
 .max-width-140 {
   max-width: 140px;
-}
-
-.max-width-300 {
-  max-width: 300px;
 }
 
 ol.publication {
