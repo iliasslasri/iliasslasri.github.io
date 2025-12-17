@@ -1,3 +1,6 @@
+
+
+
 ---
 layout: default
 ---
@@ -28,7 +31,8 @@ layout: default
 
     <article>
       <div class="cv">
-        <p>Please contact me for an updated version of my resume.</p>
+        <!-- Always redirect to the PDF -->
+        <script>window.location.href = "{{ '/assets/pdf/CV.pdf' | relative_url }}";</script>
       </div>
     </article>
   </div>
@@ -59,7 +63,8 @@ layout: default
 
     <article>
       <div class="cv">
-        <p>Please contact me for an updated version of my resume.</p>
+        <!-- Always redirect to the PDF -->
+        <script>window.location.href = "{{ '/assets/pdf/CV.pdf' | relative_url }}";</script>
       </div>
     </article>
   </div>
