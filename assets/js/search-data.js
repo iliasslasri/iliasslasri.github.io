@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-nmf-divergence-derivation-by-me",
+        },{id: "post-a-curated-collection-of-ai-amp-audio-resources",
+        
+          title: "A Curated Collection of AI &amp; Audio Resources",
+        
+        description: "A comprehensive list of resources, papers, and courses covering Audio ML, Transformers, LLMs, and Efficient Deep Learning that I find valuable.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/resources/";
+          
+        },
+      },{id: "post-nmf-divergence-derivation-by-me",
         
           title: "NMF Divergence Derivation by ME",
         
