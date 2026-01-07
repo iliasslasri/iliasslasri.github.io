@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-a-curated-collection-of-ai-amp-audio-resources",
+        },{id: "post-pesto-vqt-losses-amp-eval-on-reverb",
+        
+          title: "PESTO (VQT, Losses &amp; Eval on reverb)",
+        
+        description: "Pitch Estimation with Self-supervised Transposition-Equivariant Objective",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/pesto/";
+          
+        },
+      },{id: "post-a-curated-collection-of-ai-amp-audio-resources",
         
           title: "A Curated Collection of AI &amp; Audio Resources",
         
@@ -141,30 +152,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.linkedin.com/in/iliasslasri", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
