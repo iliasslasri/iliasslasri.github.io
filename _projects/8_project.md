@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Neural Text-To-Speech
-description: High-fidelity speech synthesis using PyTorch, Whisper, and EnCodec
+description: Speech synthesis using PyTorch, Whisper, and EnCodec
 img: assets/img/tts_bg.jpg
 importance: 1
 category: Projects
 giscus_comments: true
 ---
 
-This project focuses on the development of a neural Text-To-Speech (TTS) system built from scratch in **PyTorch**. The goal is to achieve high-fidelity speech synthesis by leveraging state-of-the-art representation learning techniques.
+This project focuses on the development of a neural Text-To-Speech (TTS) system built from scratch in **PyTorch**.
 
-You can view the source code and track progress on GitHub:
+WIP
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     <div class="repo p-2 text-center">
