@@ -8,13 +8,12 @@ category: Projects
 giscus_comments: true
 ---
 
-This project implements **FSPEN (Full-band Sub-band Path Extension Network)**, an ultra-lightweight model designed to recover clean speech from noisy environments with minimal latency and strictly limited parameters ($<100$k).
+This project implements **[FSPEN (Full-band Sub-band Path Extension Network)](https://ieeexplore.ieee.org/document/10446016)**, an ultra-lightweight speech enhancement model with minimal latency and strictly limited parameters ($<100$k).
 
 
 We developed the **first unofficial PyTorch implementation** of this paper, including full training and evaluation pipelines. I benchmarked the model and conducted ablation studies.
 
 ### Code & Demo
-
 
 * <i class="fab fa-github"></i> **GitHub:** [iliasslasri/fspen](https://github.com/iliasslasri/fspen)
 * <i class="fas fa-rocket"></i> **Live Demo:** [Hugging Face Spaces](https://huggingface.co/spaces/iliasslasri/fspen) (restart the space if it's sleeping ;))
