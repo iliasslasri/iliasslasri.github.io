@@ -91,6 +91,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_hobbit/";
+            },},{id: "projects-voice-ai-paris",
+          title: 'Voice AI Paris',
+          description: "Hack w/ Gradium, Kyutai, pyannoteAI, Pareto &amp; FOMO",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
             },},{id: "projects-mistral-ai-paris-hackathon",
           title: 'Mistral AI Paris Hackathon',
           description: "Fine-tuning a model to live-commentate football matches",
