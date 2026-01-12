@@ -96,11 +96,6 @@ ninja.data = [{
           description: "Fine-tuning a model to live-commentate football matches",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
             },},{id: "projects-consumer-edge-ai-hackathon",
           title: 'Consumer Edge AI Hackathon',
           description: "Hugging Face, Meta, Scaleway &amp; EF. On device model optimization and deployment.",
@@ -131,6 +126,11 @@ ninja.data = [{
           description: "High-fidelity speech synthesis using PyTorch, Whisper, and EnCodec",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-fspen-implementation",
+          title: 'FSPEN Implementation',
+          description: "An ultra-lightweight network for real-time speech enhancement (&lt;100k params)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-github',
         title: 'GitHub',
