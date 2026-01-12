@@ -128,7 +128,7 @@ ninja.data = [{
               window.location.href = "/projects/7_project/";
             },},{id: "projects-neural-text-to-speech",
           title: 'Neural Text-To-Speech',
-          description: "High-fidelity speech synthesis using PyTorch, Whisper, and EnCodec",
+          description: "Speech synthesis using PyTorch, Whisper, and EnCodec",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-fspen-implementation",
